@@ -1,0 +1,78 @@
+{
+  "musicDiscovery": {
+    "name": "Music Discovery",
+    "description": "For my class Progressive web apps I was asked to create an app with data from an API with serverside rendering. I decided to create a music discovery app where people can browse metalcore albums.",
+    "features": [
+      "Download the website as progressive web app",
+      "Browse previously viewed albums offline"
+    ],
+    "used": [
+      "Node.js",
+      "Express.js",
+      "NPM packages",
+      "gulp",
+      "serviceWorker",
+      "Flexbox",
+      "EJS",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "github": "https://github.com/SharonV33/progressive-web-apps-2021",
+    "liveLink": "https://music-discovery-cmd.herokuapp.com/"
+  },
+  "capturingCorona": {
+    "name": "Capturing Corona",
+    "description": "Together with a two other students from one of my classes, we were asked by in60seconds to create a new corona dashboard for CBS as part of one of our classes. In this project, I took the role of developer while my teammates designed the website and gathered the data",
+    "features": [
+      "Browse the latest news about corona in a pleasurable way",
+      "Quickly get insights on the situations you are interested in",
+      "compare data easily in layered line charts"
+    ],
+    "used": [
+      "Vue.js",
+      "D3.js",
+      "Flexbox",
+      "Grid",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "github": "https://github.com/SharonV33/capturingCorona",
+    "liveLink": "https://capturing-corona-crisis.vercel.app/#/economy"
+  },
+  "frontendApplications":{
+    "name": "Mindervaliede parkeer garages",
+    "description": "In order to better understand Vue.js, I made a dashboard about disbled parking places in the netherlands using a RDW dataset. Per province, I show how many of the parking spaces are accessible to disabled people.",
+    "features": [
+      "Compare the amount of disabled parking spaces per province"
+    ],
+    "used": [
+      "Vue.js",
+      "D3.js",
+      "Flexbox",
+      "Grid",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "github": "https://github.com/SharonV33/frontend-applications",
+    "liveLink": "https://frontend-applications-nine.vercel.app/#/"
+  },
+  "dinnerSelector": {
+    "name": "Dinner Selector",
+    "description": "Since I always struggle to think of something to eat for dinner, I made a website for it. By clicking the button, a random dish will be selected for dinner",
+    "features": [
+      "Randomise dishes"
+    ],
+    "used":[
+      "Vue.js",
+      "Flexbox",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "github": "https://github.com/SharonV33/dinner-selector",
+    "liveLink": "https://dinner-selector.vercel.app/#/"
+  }
+}
