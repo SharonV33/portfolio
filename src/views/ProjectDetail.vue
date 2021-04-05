@@ -45,7 +45,6 @@
                 if (!this.currentPage) {
                     return
                 }
-
                 const fileName = this.currentPage.id
 
                 return require(`../assets/images/${fileName}.png`) // the module request
