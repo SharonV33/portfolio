@@ -94,4 +94,17 @@
         color: #fff;
     }
 
+    @media (max-width: 400px) {
+        .card {
+            flex-basis: 100%;
+            margin: 1em 0;
+            border-radius: 0;
+        }
+        img {
+            border-radius: 0;
+            height: 15em;
+            width: 100vw;
+        }
+    }
+
 </style>

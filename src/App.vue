@@ -24,6 +24,7 @@ body {
   flex-direction: column;
   align-items: center;
   color: #fff;
+  overflow-x: hidden;
 }
 
 #nav {

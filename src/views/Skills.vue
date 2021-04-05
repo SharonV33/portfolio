@@ -164,4 +164,12 @@
     background-color: #1F788C;
     border-radius: 10px;
   }
+
+  @media (max-width: 400px) {
+    .skills .card {
+      flex-basis: 100%;
+      margin: 1em 0;
+      border-radius: 0;
+    }
+  }
 </style>

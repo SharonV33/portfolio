@@ -26,4 +26,10 @@
     padding: 2em 4em;
     max-width: 70em;
   }
+
+  @media (max-width: 400px) {
+    .card {
+      width: 90vw;
+    }
+  }
 </style>

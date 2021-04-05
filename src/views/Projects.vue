@@ -56,6 +56,7 @@
     }
     img {
         width: 100%;
+        height: 25em;
         pointer-events: none;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
@@ -65,5 +66,17 @@
     a,
     a:visited {
         color: #fff;
+    }
+
+    @media (max-width: 400px) {
+        .card {
+            flex-basis: 100%;
+            margin: 1em 0;
+            border-radius: 0;
+        }
+        .card img {
+            border-radius: 0;
+            height: 15em;
+        }
     }
     </style>
