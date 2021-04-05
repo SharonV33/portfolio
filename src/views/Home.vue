@@ -47,7 +47,7 @@ export default {
     z-index: 1;
     width: 100vw;
     height: 80vh;
-    opacity: 50%;
+    opacity: 0.5;
     overflow-x: hidden;
   }
 
