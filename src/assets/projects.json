@@ -1,5 +1,6 @@
 {
   "musicDiscovery": {
+    "id": "musicDiscovery",
     "name": "Music Discovery",
     "description": "For my class Progressive web apps I was asked to create an app with data from an API with serverside rendering. I decided to create a music discovery app where people can browse metalcore albums.",
     "features": [
@@ -22,6 +23,7 @@
     "liveLink": "https://music-discovery-cmd.herokuapp.com/"
   },
   "capturingCorona": {
+    "id": "capturingCorona",
     "name": "Capturing Corona",
     "description": "Together with a two other students from one of my classes, we were asked by in60seconds to create a new corona dashboard for CBS as part of one of our classes. In this project, I took the role of developer while my teammates designed the website and gathered the data",
     "features": [
@@ -41,7 +43,8 @@
     "github": "https://github.com/SharonV33/capturingCorona",
     "liveLink": "https://capturing-corona-crisis.vercel.app/#/economy"
   },
-  "frontendApplications":{
+  "frontendApplications": {
+    "id": "frontendApplications",
     "name": "Mindervaliede parkeer garages",
     "description": "In order to better understand Vue.js, I made a dashboard about disbled parking places in the netherlands using a RDW dataset. Per province, I show how many of the parking spaces are accessible to disabled people.",
     "features": [
@@ -60,6 +63,7 @@
     "liveLink": "https://frontend-applications-nine.vercel.app/#/"
   },
   "dinnerSelector": {
+    "id": "dinnerSelector",
     "name": "Dinner Selector",
     "description": "Since I always struggle to think of something to eat for dinner, I made a website for it. By clicking the button, a random dish will be selected for dinner",
     "features": [
@@ -73,6 +77,6 @@
       "JavaScript"
     ],
     "github": "https://github.com/SharonV33/dinner-selector",
-    "liveLink": "https://dinner-selector.vercel.app/#/"
+    "liveLink": "https://dinner-selector-git-master-sharonv33.vercel.app/#/"
   }
 }

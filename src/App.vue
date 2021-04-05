@@ -14,12 +14,10 @@
 <style>
 body {
   margin: 0;
-  background-color: #000;
+  background-color: #110726;
+  font-family: ‘Nunito’, sans-serif;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,39 +45,30 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: 400;
 }
 
 .sign__word {
-  font-size: 5.6rem;
+  font-size: 3rem;
   text-align: center;
   line-height: 1;
-  color: #c6e2ff;
-  animation: neon .08s ease-in-out infinite alternate;
+  color: #37448C;
+  animation: neon 1s ease-in-out infinite alternate;
+}
+
+.card {
+  flex: 2;
+  flex-basis: 40%;
+  text-align: center;
+  margin: 3em;
+  padding-bottom: 2em;
+  border-radius: 30px;
+  transition: transform 100ms;
+  cursor: pointer;
+  box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
+  background: #1E1540;
 }
 
 
-/*-- Animation Keyframes --*/
 
-/*animation*/
-
-@keyframes neon {
-  from {
-    text-shadow:
-            0 0 6px rgba(202,228,225,0.92),
-            0 0 30px rgba(202,228,225,0.34),
-            0 0 12px rgba(30,132,242,0.52),
-            0 0 21px rgba(30,132,242,0.92),
-            0 0 34px rgba(30,132,242,0.78),
-            0 0 54px rgba(30,132,242,0.92);
-  }
-  to {
-    text-shadow:
-            0 0 6px rgba(202,228,225,0.98),
-            0 0 30px rgba(202,228,225,0.42),
-            0 0 12px rgba(30,132,242,0.58),
-            0 0 22px rgba(30,132,242,0.84),
-            0 0 38px rgba(30,132,242,0.88),
-            0 0 60px rgba(30,132,242,1);
-  }
-}
 </style>
