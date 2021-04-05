@@ -12,6 +12,8 @@
 </template>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
 body {
   margin: 0;
   background-color: #110726;
