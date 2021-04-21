@@ -1,4 +1,27 @@
 {
+  "guessThatAlbum": {
+    "id": "guessThatAlbum",
+    "name": "Guess that Album",
+    "description": "In order to get a good understanding of 'real time web applications' I was asked to create a real time app for one of my classes. My concept was creating a guessing game based on metalcore albums. Multiple users can play at the same time and scores are kept via a leaderboard",
+    "features": [
+      "Play with multiple people online",
+      "Real time updating leaderboard and album",
+      "Album art from the last.fm API"
+    ],
+    "used": [
+      "Node.js",
+      "Express.js",
+      "NPM packages",
+      "Socket.io",
+      "Flexbox",
+      "EJS",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "github": "https://github.com/SharonV33/guess-that-album",
+    "liveLink": "https://guessthatalbum.herokuapp.com/"
+  },
   "musicDiscovery": {
     "id": "musicDiscovery",
     "name": "Music Discovery",
