@@ -3,7 +3,7 @@
     <div class="sign">
       <span class="sign__word">My projects</span>
     </div>
-      <a class="card" href="/#/projects/capturingCorona">
+      <a class="card" href="/#/projects/guessThatAlbum">
         <img :src="image[2]" alt="project screenshot">
         Guess that Album</a>
         <a class="card" href="/#/projects/musicDiscovery">
