@@ -59,6 +59,7 @@
         align-items: center;
         max-width: 50em;
     }
+
     img {
         width: 100%;
         height: 25em;
@@ -84,4 +85,5 @@
             height: 15em;
         }
     }
+
     </style>
