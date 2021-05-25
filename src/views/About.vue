@@ -4,7 +4,7 @@
       <span class="sign__word">About me</span>
     </div>
     <p class="card">
-      My name is Sharon Veldman, I'm 22 years old. I currently live in Den Bosch with my dad and our two cats. In my free time I enjoy listening to metal music and watching scary movies.
+      My name is Sharon Veldman, I'm 23 years old. I currently live in Den Bosch with my dad and our two cats. In my free time I enjoy listening to metal music and watching scary movies.
       Normally I would frequently visit festivals but Corona has put a big halt to this. I'm also a student at the Hogeschool van Amsterdam. I study Communication and Multimedia design.
       I'm currently working on finishing a minor in web development and design.
     </p>

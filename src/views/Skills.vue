@@ -36,6 +36,10 @@
           <progress id="express" value="60" max="100"></progress>
         </li>
         <li>
+          <label for="node">Node.js</label>
+          <progress id="node" value="50" max="100"></progress>
+        </li>
+        <li>
           <label for="ejs">EJS</label>
           <progress id="ejs" value="60" max="100"></progress>
         </li>
