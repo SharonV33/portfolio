@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
     // used mainly for mobile devices
     $('.menu-icon.hamburger').on('click', function () {
         $(this).toggleClass('active');
-        $('.theme-nav .menu-main-menu-container').toggleClass('active');
+        $('.theme-nav').toggleClass('active');
     });
 
     // if a menu item has a sub menu, prevent the default behaviour
