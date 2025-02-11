@@ -741,6 +741,10 @@ main ul:not([class]) li::before {
     margin-left: 0;
   }
 }
+.theme-split-overlap.reverse {
+  margin-left: 0;
+  margin-right: calc((100vw - 1290px) / 2 + 16px);
+}
 .theme-split-overlap__img {
   border-radius: 8px;
   overflow: hidden;
