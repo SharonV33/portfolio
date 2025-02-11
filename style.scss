@@ -657,7 +657,7 @@ main ul:not([class]) {
 		img {
 			position: absolute;
 			width: 100%;
-			//			height: 100%;
+						height: 100%;
 			object-fit: cover;
 			object-position: center center;
 		}
@@ -665,6 +665,7 @@ main ul:not([class]) {
 
 	&__side {
 		padding: 40px;
+		min-height: 400px;
 		@media screen and (max-width: 768px) {
 			margin-bottom: 24px;
 		}
