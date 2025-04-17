@@ -721,17 +721,22 @@ main ul:not([class]) {
 	}
 }
 
+
 .theme-split-overlap {
 	display: flex;
 	align-items: center;
 margin-left: calc((100vw - 1290px) / 2 + 16px);
-	@media screen and (max-width: 768px) {
-		flex-direction: column;
-		margin-left: 0;
-	}
 	&.reverse {
 		margin-left: 0;
 		margin-right: calc((100vw - 1290px) / 2 + 16px);
+		@media screen and (max-width: 768px) {
+			margin-right: 0;
+		}
+	}
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	&__img {

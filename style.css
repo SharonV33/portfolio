@@ -735,15 +735,21 @@ main ul:not([class]) li::before {
   align-items: center;
   margin-left: calc((100vw - 1290px) / 2 + 16px);
 }
+.theme-split-overlap.reverse {
+  margin-left: 0;
+  margin-right: calc((100vw - 1290px) / 2 + 16px);
+}
+@media screen and (max-width: 768px) {
+  .theme-split-overlap.reverse {
+    margin-right: 0;
+  }
+}
 @media screen and (max-width: 768px) {
   .theme-split-overlap {
     flex-direction: column;
     margin-left: 0;
+    margin-right: 0;
   }
-}
-.theme-split-overlap.reverse {
-  margin-left: 0;
-  margin-right: calc((100vw - 1290px) / 2 + 16px);
 }
 .theme-split-overlap__img {
   border-radius: 8px;
